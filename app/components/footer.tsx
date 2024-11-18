@@ -10,7 +10,7 @@ export default function Footer() {
   <div className="container px-6 py-0 mx-auto flex items-center sm:flex-row flex-col">
   <div className=" ransition-transform duration-300 hover:scale-110">
     <Link href={"#navbar"} className="flex title-font font-medium items-center text-pink-500 ml-16 mb-4 md:mb-0 hover:text-purple-600 transition-colors duration-200 cursor-pointer">
-  <Image src={require("../../images/FullLogo_Transparent.png")} alt="Tech Tune" width={75} height={75} mr-8/> 
+  <Image src="/images/FullLogo_Transparent.png" alt="Tech Tune" width={75} height={75} mr-8/> 
     
     </Link>
     </div>

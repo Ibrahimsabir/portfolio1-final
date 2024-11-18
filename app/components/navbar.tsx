@@ -10,8 +10,14 @@ export default function Navbar() {
         <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
        <div className="transition-transform duration-300 hover:scale-110 mt-0 ml-8">
        {/* <Link href={"#"} target="_blank" className="flex title-font font-medium items-center text-pink-500 ml-4 mb-4 md:mb-0 hover:text-purple-600 transition-colors duration-200 cursor-pointer"> */}
-  <Image src={require("../../images/FullLogo_Transparent.png")} alt="Tech Tune" width={100} height={75} />
-  
+  {/* <Image src={require("../../images/FullLogo_Transparent.png")} alt="Tech Tune" width={100} height={75} />
+   */}
+   <Image 
+  src="/images/FullLogo_Transparent.png" 
+  alt="Tech Tune" 
+  width={100} 
+  height={75} 
+/>
 {/* </Link> */}
 
 </div>
@@ -24,7 +30,8 @@ export default function Navbar() {
   <Link href={"#contact"} className="mr-16 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >Contact </Link>
   
 </nav>
-<a href={("../../images/Resume.png")} target="_blank" >
+
+<Link href="/images/Resume.png" target="_blank" >
 {/* <Image src={"../../images/Resume.png"} alt="My picture" width={500} height={500} /> */}
 
           <button className="inline-flex items-center mx-auto border-2 text-white border-white bg-yellow-500 py-1 px-3 
@@ -32,7 +39,7 @@ export default function Navbar() {
           Resume
           <FiDownloadCloud className="text-xl ml-2" />
           </button>
-          </a>
+          </Link>
         </div>
       </header>
     </div>

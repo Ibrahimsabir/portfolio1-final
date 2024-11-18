@@ -49,7 +49,7 @@ export default function Hero() {
             <Image
               className="object-cover object-center rounded-full mx-auto w-[20rem]"
               alt="hero"
-              src={require("../../images/girl-with-long-hair-being-happy.jpg")}
+              src="/images/girl-with-long-hair-being-happy.jpg"
               width={500}
               height={500}
             />

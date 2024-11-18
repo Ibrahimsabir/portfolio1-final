@@ -12,7 +12,7 @@ export default function About(){
       <Image
         className="object-cover object-center rounded-full mx-auto"
         alt="hero"
-        src={require("../../images/girl-with-long-hair-being-happy.jpg")}
+        src="/images/girl-with-long-hair-being-happy.jpg"
         width={300}
         height={300}
       />
@@ -30,7 +30,7 @@ export default function About(){
        Let's create something amazing together!
       </p>
       <div className="flex justify-center">
-        <Link href={require("../../images/Resume.png")}>
+        <Link href="/images/Resume.png">
         <button className="inline-flex text-white bg-yellow-600 border-2 py-2 px-6 focus:outline-none hover:bg-white hover:border-yellow-600 hover:text-yellow-600 rounded text-lg">
           View CV
         </button>
