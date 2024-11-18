@@ -26,7 +26,7 @@ export default function About(){
       Designing digital experiences that stand out! As a UI/UX designer with 
       expertise in Tailwind CSS, HTML, CSS, React, and Next.js, I blend 
       creativity with code to build sleek, responsive, and engaging websites.
-       Let's create something amazing together!
+       Lets create something amazing together!
       </p>
       <div className="flex justify-center">
         <Link href="/images/Resume.png">
