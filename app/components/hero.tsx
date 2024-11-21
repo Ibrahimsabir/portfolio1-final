@@ -50,7 +50,7 @@ export default function Hero() {
               className="object-cover object-center rounded-full mx-auto w-[20rem]"
               alt="hero"
               src="/images/girl-with-long-hair-being-happy.jpg"
-              width={300}
+              width={500}
               height={500}
             />
           </div>
