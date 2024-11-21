@@ -21,11 +21,11 @@ export default function Navbar() {
 </div>
 <span className="mx-auto text-gray-600 text-2xl font-semibold">Tech Tune IT solution</span>
 <nav className="md:ml-8  flex flex-wrap items-center font-semibold text-base justify-center">
-  <Link href={"#hero"} className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >Home</Link>
-  <Link href={"#about"} className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >About</Link>
-  <Link href={"#skills"} className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >My Skills</Link>
-  <Link href={"#projects"} className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >My Projects</Link>
-  <Link href={"#contact"} className="mr-16 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >Contact </Link>
+  <Link href="/" className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >Home</Link>
+  <Link href="/about" className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >About</Link>
+  <Link href="/skills" className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >My Skills</Link>
+  <Link href="/myprojects" className="mr-5 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >My Projects</Link>
+  <Link href="/contact" className="mr-16 text-white hover:border-b-2 border-white transition-colors duration-200 cursor-pointer" >Contact </Link>
   
 </nav>
 
